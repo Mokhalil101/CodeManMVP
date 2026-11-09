@@ -1,0 +1,4282 @@
+[
+ {
+  "id": "PY_001",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(2 + 3)",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correctAnswer": 1,
+  "explanation": "2 + 3 = 5",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "PY_002",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "type": "mcq",
+  "question": "Type of 3.14 in Python?",
+  "code": "",
+  "options": [
+   "int",
+   "float",
+   "str",
+   "bool"
+  ],
+  "correctAnswer": 1,
+  "explanation": "3.14 is a float.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "PY_003",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len([1,2,3]))",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "Error"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The list has 3 items.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "PY_004",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print('ab' * 2)",
+  "options": [
+   "abab",
+   "ab2",
+   "aabb",
+   "Error"
+  ],
+  "correctAnswer": 0,
+  "explanation": "String repetition.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "CPP_001",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 1,
+  "type": "mcq",
+  "question": "Which symbol ends a C++ statement?",
+  "code": "",
+  "options": [
+   ".",
+   ":",
+   ";",
+   ","
+  ],
+  "correctAnswer": 2,
+  "explanation": "Statements end with a semicolon.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "JA_001",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 1,
+  "type": "mcq",
+  "question": "Which method is the Java program entry point?",
+  "code": "",
+  "options": [
+   "start()",
+   "main()",
+   "run()",
+   "init()"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The JVM starts at main().",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "CS_001",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 1,
+  "type": "mcq",
+  "question": "Binary 1010 in decimal?",
+  "code": "",
+  "options": [
+   "8",
+   "10",
+   "12",
+   "14"
+  ],
+  "correctAnswer": 1,
+  "explanation": "8 + 2 = 10.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "mixed"
+ },
+ {
+  "id": "CS_002",
+  "category": "Data Structures",
+  "language": "CS",
+  "difficulty": 1,
+  "type": "conceptual",
+  "question": "Which structure is LIFO?",
+  "code": "",
+  "options": [
+   "Queue",
+   "Stack",
+   "Array",
+   "Tree"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Stack = Last In, First Out.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "DS_002",
+  "category": "Data Structures",
+  "language": "CS",
+  "difficulty": 1,
+  "type": "conceptual",
+  "question": "Which structure is FIFO?",
+  "code": "",
+  "options": [
+   "Queue",
+   "Stack",
+   "Heap",
+   "Set"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Queue = First In, First Out.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "PY_005",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(7 // 2)",
+  "options": [
+   "3",
+   "3.5",
+   "4",
+   "2"
+  ],
+  "correctAnswer": 0,
+  "explanation": "// is floor division.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "basics"
+ },
+ {
+  "id": "JS_001",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What does typeof null return?",
+  "code": "console.log(typeof null)",
+  "options": [
+   "null",
+   "undefined",
+   "object",
+   "number"
+  ],
+  "correctAnswer": 2,
+  "explanation": "A historic JS quirk.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "mixed"
+ },
+ {
+  "id": "PY_006",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "for i in range(3):\n    print(i, end='')",
+  "options": [
+   "123",
+   "012",
+   "0123",
+   "021"
+  ],
+  "correctAnswer": 1,
+  "explanation": "range(3) = 0,1,2.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "loops"
+ },
+ {
+  "id": "PY_007",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a = [1, 2, 3]\nprint(a[-1])",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "Error"
+  ],
+  "correctAnswer": 2,
+  "explanation": "-1 is the last element.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "PY_008",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "if x = 5:\n    print('five')",
+  "options": [
+   "Missing colon",
+   "= should be ==",
+   "x undefined",
+   "Bad indent"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Comparison needs ==.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "debug"
+ },
+ {
+  "id": "JS_002",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(0.1 + 0.2 === 0.3)",
+  "options": [
+   "true",
+   "false",
+   "NaN",
+   "undefined"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Floating point rounding.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "mixed"
+ },
+ {
+  "id": "DS_001",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "type": "conceptual",
+  "question": "Time complexity of binary search?",
+  "code": "",
+  "options": [
+   "O(n)",
+   "O(log n)",
+   "O(n log n)",
+   "O(1)"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Halves the range each step.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "algo"
+ },
+ {
+  "id": "PY_009",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "d = {'a': 1}\nprint(d.get('b', 0))",
+  "options": [
+   "None",
+   "0",
+   "KeyError",
+   "1"
+  ],
+  "correctAnswer": 1,
+  "explanation": "get returns the default.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "CPP_002",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 2,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "cout << 7 / 2;",
+  "options": [
+   "3",
+   "3.5",
+   "4",
+   "Error"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Integer division.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "mixed"
+ },
+ {
+  "id": "JA_002",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 2,
+  "type": "mcq",
+  "question": "Which keyword prevents inheritance?",
+  "code": "",
+  "options": [
+   "static",
+   "final",
+   "abstract",
+   "private"
+  ],
+  "correctAnswer": 1,
+  "explanation": "A final class cannot be extended.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "oop"
+ },
+ {
+  "id": "ALG_002",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 2,
+  "type": "bug",
+  "question": "What is wrong?",
+  "code": "i = 0\nwhile i < 10:\n    print(i)",
+  "options": [
+   "Syntax error",
+   "Infinite loop",
+   "Prints 10 times",
+   "Prints nothing"
+  ],
+  "correctAnswer": 1,
+  "explanation": "i is never incremented.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "debug"
+ },
+ {
+  "id": "ALG_001",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 3,
+  "type": "conceptual",
+  "question": "Worst-case time of quicksort?",
+  "code": "",
+  "options": [
+   "O(n log n)",
+   "O(n^2)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Bad pivots give O(n^2).",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "algo"
+ },
+ {
+  "id": "PY_010",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print([x*x for x in range(4)])",
+  "options": [
+   "[1, 4, 9, 16]",
+   "[0, 1, 4, 9]",
+   "[0, 1, 2, 3]",
+   "[0, 2, 4, 6]"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Squares of 0..3.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "JS_003",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 3,
+  "type": "output",
+  "question": "What is the result?",
+  "code": "console.log([] + [])",
+  "options": [
+   "[]",
+   "0",
+   "'' (empty string)",
+   "undefined"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Both arrays become ''.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "mixed"
+ },
+ {
+  "id": "PY_011",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a = [1, 2]\nb = a\nb.append(3)\nprint(a)",
+  "options": [
+   "[1, 2]",
+   "[1, 2, 3]",
+   "[3]",
+   "Error"
+  ],
+  "correctAnswer": 1,
+  "explanation": "b and a reference the same list.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "data"
+ },
+ {
+  "id": "DS_003",
+  "category": "Data Structures",
+  "language": "CS",
+  "difficulty": 3,
+  "type": "conceptual",
+  "question": "Which BST traversal gives sorted order?",
+  "code": "",
+  "options": [
+   "Pre-order",
+   "In-order",
+   "Post-order",
+   "Level-order"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Left, node, right.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "algo"
+ },
+ {
+  "id": "ALG_003",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "type": "logic",
+  "question": "Space complexity of recursive factorial(n)?",
+  "code": "",
+  "options": [
+   "O(1)",
+   "O(n)",
+   "O(log n)",
+   "O(n^2)"
+  ],
+  "correctAnswer": 1,
+  "explanation": "n stack frames.",
+  "points": 100,
+  "timeLimit": 12,
+  "topic": "algo"
+ },
+ {
+  "id": "GBAS_001",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len('python'))",
+  "options": [
+   "1",
+   "6",
+   "3",
+   "9"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 6.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_002",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(10 % 3)",
+  "options": [
+   "19",
+   "10",
+   "1",
+   "3"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 1.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_003",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(int('7') + 3)",
+  "options": [
+   "8",
+   "32",
+   "10",
+   "6"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 10.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_004",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(15 // 4)",
+  "options": [
+   "3",
+   "32",
+   "19",
+   "1"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 3.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_005",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(3 + 4 * 2)",
+  "options": [
+   "11",
+   "4",
+   "9",
+   "3"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 11.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_006",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print((3 + 4) * 2)",
+  "options": [
+   "10",
+   "8",
+   "14",
+   "11"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 14.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_007",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print('abc'[::-1])",
+  "options": [
+   "abcd",
+   "x5",
+   "e",
+   "cba"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs cba.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_008",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print('a-b-c'.replace('-', ''))",
+  "options": [
+   "e",
+   "abc",
+   "x5",
+   "code"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs abc.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_009",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print('x' + str(5))",
+  "options": [
+   "cba",
+   "abc",
+   "x5",
+   "Hi Hi"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs x5.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_010",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print('Code'.lower())",
+  "options": [
+   "code",
+   "x5",
+   "CODE",
+   "abc"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs code.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_011",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What type name is printed?",
+  "code": "print(type(True).__name__)",
+  "options": [
+   "bool",
+   "list",
+   "int",
+   "str"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs bool.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_012",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What type name is printed?",
+  "code": "print(type(2.5).__name__)",
+  "options": [
+   "tuple",
+   "float",
+   "dict",
+   "NoneType"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs float.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_013",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What type name is printed?",
+  "code": "print(type(5).__name__)",
+  "options": [
+   "bool",
+   "float",
+   "int",
+   "str"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs int.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_014",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(bool('x'))",
+  "options": [
+   "Error",
+   "False",
+   "None",
+   "True"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs True.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_015",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(5 > 3 and 2 > 4)",
+  "options": [
+   "Error",
+   "None",
+   "False",
+   "True"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs False.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_016",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(not False)",
+  "options": [
+   "False",
+   "Error",
+   "None",
+   "True"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs True.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GBAS_017",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(10 - 2 - 3)",
+  "options": [
+   "5",
+   "9",
+   "50",
+   "14"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 5.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GBAS_018",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(int(9.99))",
+  "options": [
+   "50",
+   "4",
+   "14",
+   "9"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 9.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GBAS_019",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(7 // 2 + 7 % 2)",
+  "options": [
+   "50",
+   "5",
+   "-4",
+   "4"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 4.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GBAS_020",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "basics",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(17 % 5 * 2)",
+  "options": [
+   "50",
+   "5",
+   "-4",
+   "4"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 4.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GLOO_001",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(0, 10, 2):\n    c += 1\nprint(c)",
+  "options": [
+   "5",
+   "10",
+   "15",
+   "32"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 5.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_002",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(4):\n    c += 2\nprint(c)",
+  "options": [
+   "0",
+   "10",
+   "8",
+   "5"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 8.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_003",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "x=1\nwhile x < 20:\n    x *= 2\nprint(x)",
+  "options": [
+   "15",
+   "0",
+   "32",
+   "7"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 32.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_004",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s=0\nfor i in range(5):\n    s += i\nprint(s)",
+  "options": [
+   "7",
+   "5",
+   "15",
+   "10"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 10.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_005",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len(list(range(2,9))))",
+  "options": [
+   "7",
+   "32",
+   "10",
+   "8"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 7.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GLOO_006",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "n=3\nwhile n > 0:\n    n -= 1\nprint(n)",
+  "options": [
+   "32",
+   "5",
+   "0",
+   "15"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 0.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_007",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "t=1\nfor i in range(1,5):\n    t *= i\nprint(t)",
+  "options": [
+   "15",
+   "24",
+   "0",
+   "32"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 24.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GLOO_008",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s=0\nfor i in range(10):\n    if i == 5:\n        break\n    s += i\nprint(s)",
+  "options": [
+   "22",
+   "10",
+   "25",
+   "6"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 10.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_009",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s=0\nfor i in range(10):\n    if i % 2 == 0:\n        continue\n    s += i\nprint(s)",
+  "options": [
+   "10",
+   "9",
+   "25",
+   "22"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 25.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_010",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "x=0\nfor i in range(3):\n    x = x*2 + 1\nprint(x)",
+  "options": [
+   "7",
+   "22",
+   "9",
+   "50"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 7.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_011",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(3):\n    for j in range(2):\n        c += 1\nprint(c)",
+  "options": [
+   "50",
+   "6",
+   "9",
+   "7"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 6.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_012",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sum(i for i in range(1,6) if i % 2))",
+  "options": [
+   "10",
+   "22",
+   "25",
+   "9"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 9.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GLOO_013",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(20, 0, -5):\n    c += i\nprint(c)",
+  "options": [
+   "50",
+   "7",
+   "10",
+   "9"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 50.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_014",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(1,4):\n    for j in range(i):\n        c += 1\nprint(c)",
+  "options": [
+   "10",
+   "9",
+   "6",
+   "22"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 6.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_015",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s=0\ni=10\nwhile i > 0:\n    s += i\n    i -= 3\nprint(s)",
+  "options": [
+   "10",
+   "22",
+   "50",
+   "25"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 22.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_016",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sum(range(1,11,3)))",
+  "options": [
+   "9",
+   "13",
+   "22",
+   "15"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 22.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GLOO_017",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "c=0\nfor i in range(1,20):\n    if i%3==0 or i%5==0:\n        c+=1\nprint(c)",
+  "options": [
+   "22",
+   "13",
+   "15",
+   "8"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 8.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GLOO_018",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "n=12345\ns=0\nwhile n:\n    s+=n%10\n    n//=10\nprint(s)",
+  "options": [
+   "13",
+   "8",
+   "22",
+   "15"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 15.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GLOO_019",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "x=100\nc=0\nwhile x>1:\n    x//=2\n    c+=1\nprint(c)",
+  "options": [
+   "9",
+   "6",
+   "22",
+   "15"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 6.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GLOO_020",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a,b=0,1\nfor _ in range(7):\n    a,b=b,a+b\nprint(a)",
+  "options": [
+   "13",
+   "9",
+   "15",
+   "8"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 13.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GLOO_021",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "loops",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s=0\nfor i in range(1,6):\n    for j in range(i,6):\n        if (i+j)%2==0:\n            s+=1\nprint(s)",
+  "options": [
+   "9",
+   "15",
+   "8",
+   "13"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 9.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDAT_001",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[5,6,7]\nprint(a[1])",
+  "options": [
+   "10",
+   "2",
+   "3",
+   "6"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 6.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_002",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len({1,2,2,3}))",
+  "options": [
+   "2",
+   "1",
+   "6",
+   "3"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 3.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GDAT_003",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3]\na.append(4)\nprint(len(a))",
+  "options": [
+   "10",
+   "6",
+   "4",
+   "2"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 4.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_004",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3]\nprint(a.pop())",
+  "options": [
+   "1",
+   "3",
+   "6",
+   "10"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 3.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_005",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "d={'x':1,'y':2}\nprint(d['y'])",
+  "options": [
+   "6",
+   "10",
+   "2",
+   "1"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 2.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_006",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "t=(4,5,6)\nprint(t[0])",
+  "options": [
+   "10",
+   "3",
+   "1",
+   "4"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 4.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_007",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "d={'a':1}\nd['b']=2\nprint(len(d))",
+  "options": [
+   "10",
+   "1",
+   "4",
+   "2"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 2.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_008",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[3,1,2]\nprint(min(a))",
+  "options": [
+   "3",
+   "1",
+   "10",
+   "2"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 1.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDAT_009",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[4,2,9]\na.sort()\nprint(a[-1])",
+  "options": [
+   "9",
+   "3",
+   "12",
+   "10"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 9.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_010",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[[1,2],[3,4]]\nprint(a[1][0])",
+  "options": [
+   "3",
+   "6",
+   "12",
+   "4"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 3.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_011",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sum(x*2 for x in [1,2,3]))",
+  "options": [
+   "4",
+   "12",
+   "9",
+   "10"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 12.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDAT_012",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "s={1,2,3}\ns.add(3)\nprint(len(s))",
+  "options": [
+   "12",
+   "4",
+   "3",
+   "6"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 3.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_013",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3]\na.insert(0,9)\nprint(a[0]+a[1])",
+  "options": [
+   "4",
+   "6",
+   "12",
+   "10"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 10.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_014",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "d={'a':1,'b':2,'c':3}\nprint(sum(d.values()))",
+  "options": [
+   "3",
+   "10",
+   "6",
+   "4"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 6.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_015",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3]\nb=a[:]\nb.append(4)\nprint(len(a))",
+  "options": [
+   "9",
+   "6",
+   "4",
+   "3"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 3.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_016",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3,4,5]\nprint(a[-2])",
+  "options": [
+   "10",
+   "6",
+   "4",
+   "3"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 4.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_017",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3,4,5,6]\nprint(sum(a[::2]))",
+  "options": [
+   "5",
+   "9",
+   "4",
+   "3"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 9.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDAT_018",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=[1,2,3]\nb=a\nb.append(4)\nprint(len(a))",
+  "options": [
+   "5",
+   "4",
+   "9",
+   "13"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 4.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDAT_019",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "a=list(range(10))\nprint(a[2:8:3][1])",
+  "options": [
+   "9",
+   "5",
+   "4",
+   "3"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 5.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDAT_020",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len({x%4 for x in range(20)}))",
+  "options": [
+   "4",
+   "5",
+   "9",
+   "13"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 4.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_021",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(len(set('mississippi')))",
+  "options": [
+   "5",
+   "13",
+   "3",
+   "4"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 4.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDAT_022",
+  "category": "Data Structures",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "data",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "d={}\nfor w in 'banana':\n    d[w]=d.get(w,0)+1\nprint(d['a'])",
+  "options": [
+   "13",
+   "4",
+   "3",
+   "5"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 3.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_001",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    def __init__(self, x):\n        self.x = x\n    def double(self):\n        return self.x * 2\nprint(A(4).double())",
+  "options": [
+   "2",
+   "8",
+   "6",
+   "9"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 8.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_002",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    def __init__(self):\n        self.v = 5\na = A()\na.v += 1\nprint(a.v)",
+  "options": [
+   "6",
+   "8",
+   "7",
+   "2"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 6.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_003",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class C:\n    n = 0\n    def __init__(self):\n        C.n += 1\nC(); C()\nprint(C.n)",
+  "options": [
+   "6",
+   "8",
+   "2",
+   "3"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 2.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_004",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    def __init__(self, n):\n        self.n = n\n    def __str__(self):\n        return 'A' + str(self.n)\nprint(A(3))",
+  "options": [
+   "P",
+   "A3",
+   "K",
+   "None"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs A3.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_005",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class P:\n    def hi(self):\n        return 'P'\nclass K(P):\n    pass\nprint(K().hi())",
+  "options": [
+   "A3",
+   "P",
+   "None",
+   "Error"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs P.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_006",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class P:\n    def hi(self):\n        return 'P'\nclass K(P):\n    def hi(self):\n        return 'K'\nprint(K().hi())",
+  "options": [
+   "P",
+   "Error",
+   "A3",
+   "K"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs K.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_007",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class B:\n    def f(self):\n        return 1\nclass D(B):\n    def f(self):\n        return super().f() + 1\nprint(D().f())",
+  "options": [
+   "2",
+   "42",
+   "1",
+   "3"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 2.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_008",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class S:\n    @staticmethod\n    def twice(x):\n        return x * 2\nprint(S.twice(21))",
+  "options": [
+   "43",
+   "41",
+   "42",
+   "2"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 42.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_009",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class Cnt:\n    def __init__(self):\n        self.c = 0\n    def inc(self):\n        self.c += 1\nx = Cnt(); y = x\ny.inc(); x.inc()\nprint(x.c)",
+  "options": [
+   "1",
+   "3",
+   "42",
+   "2"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 2.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_010",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    def __init__(self):\n        self.items = []\n    def add(self, x):\n        self.items.append(x)\n        return self\nprint(len(A().add(1).add(2).items))",
+  "options": [
+   "42",
+   "1",
+   "3",
+   "2"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 2.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_011",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    x = 1\nclass B(A):\n    pass\nB.x = 5\nprint(A.x, B.x)",
+  "options": [
+   "BA",
+   "B",
+   "1 5",
+   "Error"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 1 5.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_012",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "class A:\n    def who(self):\n        return 'A'\nclass B(A):\n    def who(self):\n        return 'B' + super().who()\nprint(B().who())",
+  "options": [
+   "1 5",
+   "BA",
+   "AB",
+   "B"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs BA.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GOOP_013",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "What does 'self' refer to in a Python method?",
+  "code": "",
+  "options": [
+   "The current instance",
+   "The parent class",
+   "The class itself",
+   "A global variable"
+  ],
+  "correctAnswer": 0,
+  "explanation": "self is the object the method is called on.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GOOP_014",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Which method runs when a Python object is created?",
+  "code": "",
+  "options": [
+   "__create__",
+   "__new_obj__",
+   "__init__",
+   "__start__"
+  ],
+  "correctAnswer": 2,
+  "explanation": "__init__ initializes new instances.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GOOP_015",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 1,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Which Java keyword creates an object?",
+  "code": "",
+  "options": [
+   "create",
+   "make",
+   "alloc",
+   "new"
+  ],
+  "correctAnswer": 3,
+  "explanation": "new allocates an object.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GOOP_016",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "What is inheritance?",
+  "code": "",
+  "options": [
+   "Importing a module",
+   "Hiding data",
+   "A class acquiring members of another class",
+   "Making copies of objects"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Subclasses reuse parent behavior.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GOOP_017",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Polymorphism means...",
+  "code": "",
+  "options": [
+   "Looping over objects",
+   "One class per file",
+   "Only private variables",
+   "Same interface, different behaviors"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Different types respond to the same call differently.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GOOP_018",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Encapsulation means...",
+  "code": "",
+  "options": [
+   "Bundling data with methods and restricting access",
+   "Running code faster",
+   "Compiling to bytecode",
+   "Inheriting from many classes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data and behavior live together; internals are protected.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GOOP_019",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 2,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Which Java keyword makes a class inherit from another class?",
+  "code": "",
+  "options": [
+   "inherits",
+   "super",
+   "extends",
+   "implements only"
+  ],
+  "correctAnswer": 2,
+  "explanation": "class B extends A.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GOOP_020",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "An abstract class can be instantiated directly.",
+  "code": "",
+  "options": [
+   "Only if it has no methods",
+   "Only in Java 8+",
+   "True",
+   "False"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Abstract classes must be subclassed.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_021",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "What does super() do in a subclass method?",
+  "code": "",
+  "options": [
+   "Creates a new instance",
+   "Calls the parent implementation",
+   "Deletes the parent",
+   "Makes the method private"
+  ],
+  "correctAnswer": 1,
+  "explanation": "It gives access to the parent class.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GOOP_022",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 3,
+  "topic": "oop",
+  "type": "conceptual",
+  "question": "Which keyword allows overriding through a base-class pointer?",
+  "code": "",
+  "options": [
+   "virtual",
+   "const",
+   "static",
+   "inline"
+  ],
+  "correctAnswer": 0,
+  "explanation": "virtual enables runtime polymorphism.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_001",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Time complexity of linear search?",
+  "code": "",
+  "options": [
+   "O(n^2)",
+   "O(1)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Worst case checks every item.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GALG_002",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Binary search requires the array to be...",
+  "code": "",
+  "options": [
+   "Small",
+   "Reversed",
+   "Unique",
+   "Sorted"
+  ],
+  "correctAnswer": 3,
+  "explanation": "It halves a sorted range.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GALG_003",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "A recursive function must have...",
+  "code": "",
+  "options": [
+   "A loop",
+   "A global variable",
+   "A base case",
+   "An int return type"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Otherwise it never stops.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GALG_004",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Time to access an array element by index?",
+  "code": "",
+  "options": [
+   "O(n^2)",
+   "O(n)",
+   "O(log n)",
+   "O(1)"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Direct address calculation.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GALG_005",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Average time complexity of merge sort?",
+  "code": "",
+  "options": [
+   "O(log n)",
+   "O(n log n)",
+   "O(n)",
+   "O(n^2)"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Divide in log n levels, merge n items.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_006",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Worst-case time of bubble sort?",
+  "code": "",
+  "options": [
+   "O(n log n)",
+   "O(n^2)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Nested passes over the array.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_007",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Average lookup time in a hash table?",
+  "code": "",
+  "options": [
+   "O(1)",
+   "O(n log n)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hashing jumps to the bucket.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_008",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Big O of two nested loops each running n times?",
+  "code": "",
+  "options": [
+   "O(n)",
+   "O(log n)",
+   "O(2n)",
+   "O(n^2)"
+  ],
+  "correctAnswer": 3,
+  "explanation": "n * n iterations.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_009",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Which structure does BFS use?",
+  "code": "",
+  "options": [
+   "Set",
+   "Stack",
+   "Heap",
+   "Queue"
+  ],
+  "correctAnswer": 3,
+  "explanation": "BFS explores level by level.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_010",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Which structure does iterative DFS use?",
+  "code": "",
+  "options": [
+   "Heap",
+   "Array of sets",
+   "Stack",
+   "Queue"
+  ],
+  "correctAnswer": 2,
+  "explanation": "DFS goes deep first (LIFO).",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_011",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Space complexity of merge sort?",
+  "code": "",
+  "options": [
+   "O(n)",
+   "O(1)",
+   "O(log n)",
+   "O(n^2)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It needs an auxiliary array.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_012",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Which algorithm does Python's sorted() use?",
+  "code": "",
+  "options": [
+   "Timsort",
+   "Heapsort",
+   "Selection sort",
+   "Quicksort"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Timsort: stable and adaptive.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_013",
+  "category": "Algorithms",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "conceptual",
+  "question": "Worst-case search time in a degenerate BST?",
+  "code": "",
+  "options": [
+   "O(n log n)",
+   "O(1)",
+   "O(log n)",
+   "O(n)"
+  ],
+  "correctAnswer": 3,
+  "explanation": "It becomes a linked list.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_014",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is printed after ONE bubble-sort pass?",
+  "code": "a=[2, 9, 4, 1]\nfor i in range(len(a)-1):\n    if a[i]>a[i+1]:\n        a[i],a[i+1]=a[i+1],a[i]\nprint(a)",
+  "options": [
+   "[3, 2, 1]",
+   "[2, 4, 1, 9]",
+   "[2, 1, 3]",
+   "[1, 3, 2]"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs [2, 4, 1, 9].",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_015",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is printed after ONE bubble-sort pass?",
+  "code": "a=[6, 5, 4, 3, 2]\nfor i in range(len(a)-1):\n    if a[i]>a[i+1]:\n        a[i],a[i+1]=a[i+1],a[i]\nprint(a)",
+  "options": [
+   "[5, 4, 3, 2, 6]",
+   "[1, 2, 4, 5]",
+   "[1, 2, 3]",
+   "[2, 1, 3]"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs [5, 4, 3, 2, 6].",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_016",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is printed after ONE bubble-sort pass?",
+  "code": "a=[3, 2, 1]\nfor i in range(len(a)-1):\n    if a[i]>a[i+1]:\n        a[i],a[i+1]=a[i+1],a[i]\nprint(a)",
+  "options": [
+   "[1, 2, 3]",
+   "[2, 1, 3]",
+   "[3, 2, 1]",
+   "Error"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs [2, 1, 3].",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GALG_017",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "How many steps does this binary search take?",
+  "code": "a=[1, 3, 5, 7, 9, 11, 13, 15]\nt=9\nlo,hi,steps=0,len(a)-1,0\nwhile lo<=hi:\n    mid=(lo+hi)//2\n    steps+=1\n    if a[mid]==t:\n        break\n    elif a[mid]<t:\n        lo=mid+1\n    else:\n        hi=mid-1\nprint(steps)",
+  "options": [
+   "2",
+   "1",
+   "4",
+   "3"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 3.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_018",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "How many steps does this binary search take?",
+  "code": "a=[1, 3, 5, 7, 9, 11, 13, 15]\nt=15\nlo,hi,steps=0,len(a)-1,0\nwhile lo<=hi:\n    mid=(lo+hi)//2\n    steps+=1\n    if a[mid]==t:\n        break\n    elif a[mid]<t:\n        lo=mid+1\n    else:\n        hi=mid-1\nprint(steps)",
+  "options": [
+   "4",
+   "3",
+   "1",
+   "2"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 4.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_019",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "How many steps does this binary search take?",
+  "code": "a=[1, 3, 5, 7, 9, 11, 13, 15]\nt=7\nlo,hi,steps=0,len(a)-1,0\nwhile lo<=hi:\n    mid=(lo+hi)//2\n    steps+=1\n    if a[mid]==t:\n        break\n    elif a[mid]<t:\n        lo=mid+1\n    else:\n        hi=mid-1\nprint(steps)",
+  "options": [
+   "4",
+   "3",
+   "1",
+   "2"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The code outputs 1.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_020",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "How many steps does this binary search take?",
+  "code": "a=[1, 3, 5, 7, 9, 11, 13, 15]\nt=1\nlo,hi,steps=0,len(a)-1,0\nwhile lo<=hi:\n    mid=(lo+hi)//2\n    steps+=1\n    if a[mid]==t:\n        break\n    elif a[mid]<t:\n        lo=mid+1\n    else:\n        hi=mid-1\nprint(steps)",
+  "options": [
+   "1",
+   "4",
+   "2",
+   "3"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 3.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_021",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sorted('cab'))",
+  "options": [
+   "['a', 'b', 'c']",
+   "[8, 5, 2]",
+   "[1, 2, 3]",
+   "[3, 2, 1]"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs ['a', 'b', 'c'].",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_022",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print([3,1,2][::-1])",
+  "options": [
+   "[2, 1, 3]",
+   "[8, 5, 2]",
+   "[3, 2, 1]",
+   "[1, 2, 3]"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs [2, 1, 3].",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_023",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sorted([3,1,2]))",
+  "options": [
+   "[3, 2, 1]",
+   "[8, 5, 2]",
+   "[2, 1, 3]",
+   "[1, 2, 3]"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs [1, 2, 3].",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_024",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "print(sorted([3,1,2], reverse=True))",
+  "options": [
+   "[8, 5, 2]",
+   "[3, 2, 1]",
+   "[1, 2, 3]",
+   "['a', 'b', 'c']"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs [3, 2, 1].",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GALG_025",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "def f(n):\n    return n if n<2 else f(n-1)+f(n-2)\nprint(f(7))",
+  "options": [
+   "21",
+   "13",
+   "6",
+   "64"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 13.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_026",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "def f(n):\n    return 1 if n<=1 else n*f(n-1)\nprint(f(5))",
+  "options": [
+   "64",
+   "120",
+   "6",
+   "21"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The code outputs 120.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_027",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "def p(n):\n    return 1 if n==0 else 2*p(n-1)\nprint(p(6))",
+  "options": [
+   "13",
+   "21",
+   "120",
+   "64"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 64.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_028",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "def f(n):\n    return 0 if n==0 else n+f(n-1)\nprint(f(6))",
+  "options": [
+   "21",
+   "6",
+   "13",
+   "64"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The code outputs 21.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GALG_029",
+  "category": "Algorithms",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "algo",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "def g(a,b):\n    return a if b==0 else g(b,a%b)\nprint(g(48,18))",
+  "options": [
+   "120",
+   "13",
+   "21",
+   "6"
+  ],
+  "correctAnswer": 3,
+  "explanation": "The code outputs 6.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDEB_001",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "int('abc')",
+  "options": [
+   "ValueError",
+   "KeyError",
+   "NameError",
+   "TypeError"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises ValueError.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GDEB_002",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print('a'+1)",
+  "options": [
+   "Error",
+   "IndexError",
+   "ValueError",
+   "TypeError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises TypeError.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GDEB_003",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "d={'a':1}\nprint(d['b'])",
+  "options": [
+   "ValueError",
+   "TypeError",
+   "ZeroDivisionError",
+   "KeyError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises KeyError.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDEB_004",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print(x)",
+  "options": [
+   "NameError",
+   "ValueError",
+   "AttributeError",
+   "IndexError"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises NameError.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GDEB_005",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print(10/0)",
+  "options": [
+   "ValueError",
+   "AttributeError",
+   "IndexError",
+   "ZeroDivisionError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises ZeroDivisionError.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GDEB_006",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "a=[1,2,3]\nprint(a[5])",
+  "options": [
+   "Error",
+   "IndexError",
+   "ZeroDivisionError",
+   "NameError"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This raises IndexError.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDEB_007",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print([1,2][2])",
+  "options": [
+   "ValueError",
+   "TypeError",
+   "NameError",
+   "IndexError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises IndexError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_008",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "float('x')",
+  "options": [
+   "KeyError",
+   "Error",
+   "ValueError",
+   "AttributeError"
+  ],
+  "correctAnswer": 2,
+  "explanation": "This raises ValueError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_009",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print(int('3.5'))",
+  "options": [
+   "ValueError",
+   "KeyError",
+   "AttributeError",
+   "TypeError"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises ValueError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_010",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "t=(1,2)\nt[0]=5",
+  "options": [
+   "Error",
+   "TypeError",
+   "NameError",
+   "AttributeError"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This raises TypeError.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_011",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "len(5)",
+  "options": [
+   "AttributeError",
+   "IndexError",
+   "ZeroDivisionError",
+   "TypeError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises TypeError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_012",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "{}.pop('k')",
+  "options": [
+   "KeyError",
+   "ZeroDivisionError",
+   "IndexError",
+   "AttributeError"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises KeyError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_013",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "x=None\nx.foo()",
+  "options": [
+   "TypeError",
+   "Error",
+   "ValueError",
+   "AttributeError"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This raises AttributeError.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_014",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "a=[1]\na.nope",
+  "options": [
+   "AttributeError",
+   "Error",
+   "KeyError",
+   "ValueError"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises AttributeError.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_015",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "[].pop()",
+  "options": [
+   "NameError",
+   "IndexError",
+   "ZeroDivisionError",
+   "KeyError"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This raises IndexError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_016",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Which error does this code raise?",
+  "code": "print(undefined_var + 1)",
+  "options": [
+   "NameError",
+   "KeyError",
+   "TypeError",
+   "Error"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This raises NameError.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GDEB_017",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "for i in range(3)\n    print(i)",
+  "options": [
+   "Missing colon after range(3)",
+   "print needs semicolon",
+   "range is invalid",
+   "i is undefined"
+  ],
+  "correctAnswer": 0,
+  "explanation": "for needs a colon.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDEB_018",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "def add(a, b):\n    return a + b\nprint(add(1))",
+  "options": [
+   "add undefined",
+   "Wrong return",
+   "Missing argument",
+   "Needs a semicolon"
+  ],
+  "correctAnswer": 2,
+  "explanation": "add needs two arguments.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDEB_019",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 1,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "numbers = [1, 2, 3]\nprint(numbers[3])",
+  "options": [
+   "Missing import",
+   "Missing colon",
+   "Index out of range",
+   "Wrong type"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Valid indexes are 0..2.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GDEB_020",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "let x = 5;\nlet x = 6;",
+  "options": [
+   "5 is invalid",
+   "x declared twice with let",
+   "x must be const",
+   "Missing semicolon"
+  ],
+  "correctAnswer": 1,
+  "explanation": "let cannot be redeclared.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_021",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "if (x = 3) {\n  run();\n}",
+  "options": [
+   "Assignment instead of comparison",
+   "x is const",
+   "Missing else",
+   "Wrong brace"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Use === to compare.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_022",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "const a = 1;\na = 2;",
+  "options": [
+   "Missing let",
+   "Reassigning a const",
+   "Missing semicolon",
+   "a is undefined"
+  ],
+  "correctAnswer": 1,
+  "explanation": "const cannot be reassigned.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_023",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "int a[3] = {1,2,3};\ncout << a[3];",
+  "options": [
+   "Wrong type",
+   "Out-of-bounds access",
+   "cout undefined",
+   "Missing semicolon"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Valid indexes are 0..2.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_024",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "What goes wrong?",
+  "code": "String s = null;\nSystem.out.println(s.length());",
+  "options": [
+   "Syntax error",
+   "NullPointerException",
+   "ClassCastException",
+   "ArrayIndexOutOfBounds"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Calling a method on null.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_025",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "What goes wrong?",
+  "code": "int[] a = new int[3];\na[3] = 1;",
+  "options": [
+   "Nothing",
+   "Compile error",
+   "NullPointerException",
+   "ArrayIndexOutOfBoundsException"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Array size 3 -> max index 2.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_026",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "a = [1, 2, 3]\nfor i in range(len(a) + 1):\n    print(a[i])",
+  "options": [
+   "len is misused",
+   "Loop runs one step too far",
+   "print is wrong",
+   "a is undefined"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Off-by-one error.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_027",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the logic bug.",
+  "code": "def is_even(n):\n    return n % 2 == 1",
+  "options": [
+   "Wrong operator %",
+   "There is no bug",
+   "Missing parameter",
+   "Returns True for odd numbers"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Even numbers give remainder 0.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_028",
+  "category": "Problem Solving",
+  "language": "Python",
+  "difficulty": 2,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the logic bug.",
+  "code": "def avg(a):\n    return sum(a) / len(a) + 1",
+  "options": [
+   "Wrong sum",
+   "Missing loop",
+   "Adds an extra 1",
+   "Divides by zero always"
+  ],
+  "correctAnswer": 2,
+  "explanation": "The average should not add 1.",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GDEB_029",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "def f(x=[]):\n    x.append(1)\n    return x\nprint(f(), f())",
+  "options": [
+   "Mutable default argument is shared",
+   "Missing return",
+   "x undefined",
+   "append is invalid"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The default list is created once.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDEB_030",
+  "category": "Python",
+  "language": "Python",
+  "difficulty": 3,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "total = 0\ndef add():\n    total += 1\nadd()",
+  "options": [
+   "Needs a return",
+   "+= is invalid",
+   "total is local without 'global'",
+   "add is undefined"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Assigning makes total local.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GDEB_031",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 3,
+  "topic": "debug",
+  "type": "bug",
+  "question": "Find the bug.",
+  "code": "int x;\ncout << x;",
+  "options": [
+   "cout is wrong",
+   "x is uninitialized",
+   "Missing include",
+   "x must be const"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Reading garbage value.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GMIX_001",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(1 + '2')",
+  "options": [
+   "'3'",
+   "NaN",
+   "3",
+   "12"
+  ],
+  "correctAnswer": 3,
+  "explanation": "+ with a string concatenates.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_002",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log('5' - 2)",
+  "options": [
+   "3",
+   "52",
+   "'3'",
+   "NaN"
+  ],
+  "correctAnswer": 0,
+  "explanation": "- converts to numbers.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_003",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(typeof NaN)",
+  "options": [
+   "number",
+   "object",
+   "NaN",
+   "undefined"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NaN is a number type.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_004",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log([1,2,3].map(x => x * 2))",
+  "options": [
+   "[2, 4]",
+   "[2, 4, 6]",
+   "6",
+   "[1, 2, 3]"
+  ],
+  "correctAnswer": 1,
+  "explanation": "map transforms each item.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_005",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(Boolean(''))",
+  "options": [
+   "null",
+   "undefined",
+   "false",
+   "true"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Empty string is falsy.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_006",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(parseInt('10px'))",
+  "options": [
+   "10px",
+   "10",
+   "0",
+   "NaN"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Parsing stops at 'p'.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_007",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(0 == '0')",
+  "options": [
+   "NaN",
+   "false",
+   "true",
+   "undefined"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Loose equality converts types.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_008",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log([10,9,1].sort())",
+  "options": [
+   "[1, 9, 10]",
+   "[9, 10, 1]",
+   "[1, 10, 9]",
+   "[10, 9, 1]"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Default sort compares strings.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_009",
+  "category": "JavaScript",
+  "language": "JavaScript",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "console.log(null ?? 'a')",
+  "options": [
+   "(empty string)",
+   "null",
+   "undefined",
+   "a"
+  ],
+  "correctAnswer": 3,
+  "explanation": "?? falls back on null/undefined.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_010",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "int x = 5 / 2;\nSystem.out.println(x);",
+  "options": [
+   "2.5",
+   "3",
+   "2.0",
+   "2"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Integer division.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GMIX_011",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "String s = \"hi\";\nSystem.out.println(s.length());",
+  "options": [
+   "3",
+   "1",
+   "2",
+   "hi"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Two characters.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GMIX_012",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "System.out.println(10 % 3);",
+  "options": [
+   "10",
+   "3",
+   "1",
+   "0"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Remainder of 10/3.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GMIX_013",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "System.out.println('a' + 1);",
+  "options": [
+   "97",
+   "b",
+   "98",
+   "a1"
+  ],
+  "correctAnswer": 2,
+  "explanation": "char + int = int.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_014",
+  "category": "Java",
+  "language": "Java",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "int i = 3;\nSystem.out.println(i++ + ++i);",
+  "options": [
+   "9",
+   "8",
+   "7",
+   "6"
+  ],
+  "correctAnswer": 1,
+  "explanation": "3 + 5 = 8.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GMIX_015",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "cout << 10 % 4;",
+  "options": [
+   "0",
+   "4",
+   "2.5",
+   "2"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Remainder of 10/4.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GMIX_016",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "int a[] = {1,2,3};\ncout << a[1] + a[2];",
+  "options": [
+   "5",
+   "3",
+   "4",
+   "6"
+  ],
+  "correctAnswer": 0,
+  "explanation": "2 + 3.",
+  "points": 100,
+  "timeLimit": 17
+ },
+ {
+  "id": "GMIX_017",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "cout << (5 > 3);",
+  "options": [
+   "0",
+   "true",
+   "5",
+   "1"
+  ],
+  "correctAnswer": 3,
+  "explanation": "true prints as 1.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_018",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "int x = 3;\nx *= 2 + 1;\ncout << x;",
+  "options": [
+   "6",
+   "8",
+   "9",
+   "7"
+  ],
+  "correctAnswer": 2,
+  "explanation": "x = x * (2+1).",
+  "points": 125,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_019",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "cout << 5 / 2.0;",
+  "options": [
+   "2",
+   "2.50",
+   "2.5",
+   "3"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Floating-point division.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_020",
+  "category": "C++",
+  "language": "C++",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "output",
+  "question": "What is the output?",
+  "code": "int x = 7;\ncout << (x & 1);",
+  "options": [
+   "7",
+   "1",
+   "3",
+   "0"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Bitwise AND with 1 tests oddness.",
+  "points": 150,
+  "timeLimit": 25
+ },
+ {
+  "id": "GMIX_021",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "How many bits are in a byte?",
+  "code": "",
+  "options": [
+   "16",
+   "10",
+   "8",
+   "4"
+  ],
+  "correctAnswer": 2,
+  "explanation": "1 byte = 8 bits.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GMIX_022",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Which memory is volatile?",
+  "code": "",
+  "options": [
+   "RAM",
+   "SSD",
+   "HDD",
+   "ROM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAM loses data without power.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GMIX_023",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 1,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Which protocol loads web pages securely?",
+  "code": "",
+  "options": [
+   "HTTPS",
+   "SSH",
+   "SMTP",
+   "FTP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HTTP over TLS.",
+  "points": 100,
+  "timeLimit": 12
+ },
+ {
+  "id": "GMIX_024",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Max value of an unsigned 8-bit integer?",
+  "code": "",
+  "options": [
+   "256",
+   "127",
+   "128",
+   "255"
+  ],
+  "correctAnswer": 3,
+  "explanation": "2^8 - 1.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_025",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "What is 1 XOR 1?",
+  "code": "",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "Undefined"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XOR is true only if inputs differ.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_026",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "NOT (A AND B) with A=1, B=1?",
+  "code": "",
+  "options": [
+   "2",
+   "Undefined",
+   "1",
+   "0"
+  ],
+  "correctAnswer": 3,
+  "explanation": "A AND B = 1, NOT gives 0.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_027",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 1101 in decimal?",
+  "code": "",
+  "options": [
+   "14",
+   "13",
+   "11",
+   "17"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Sum the powers of two = 13.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_028",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 10110 in decimal?",
+  "code": "",
+  "options": [
+   "23",
+   "26",
+   "20",
+   "22"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Sum the powers of two = 22.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_029",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 100101 in decimal?",
+  "code": "",
+  "options": [
+   "37",
+   "38",
+   "35",
+   "41"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sum the powers of two = 37.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_030",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 110010 in decimal?",
+  "code": "",
+  "options": [
+   "50",
+   "48",
+   "51",
+   "54"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sum the powers of two = 50.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_031",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 1001 in decimal?",
+  "code": "",
+  "options": [
+   "7",
+   "10",
+   "9",
+   "13"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Sum the powers of two = 9.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_032",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 101001 in decimal?",
+  "code": "",
+  "options": [
+   "41",
+   "45",
+   "42",
+   "39"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sum the powers of two = 41.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_033",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 1100100 in decimal?",
+  "code": "",
+  "options": [
+   "98",
+   "104",
+   "101",
+   "100"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Sum the powers of two = 100.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_034",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Binary 1001101 in decimal?",
+  "code": "",
+  "options": [
+   "77",
+   "78",
+   "75",
+   "81"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sum the powers of two = 77.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_035",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Decimal 10 in binary?",
+  "code": "",
+  "options": [
+   "1001",
+   "1100",
+   "1010",
+   "1011"
+  ],
+  "correctAnswer": 2,
+  "explanation": "10 = 1010 in binary.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_036",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Decimal 25 in binary?",
+  "code": "",
+  "options": [
+   "11000",
+   "11001",
+   "11011",
+   "11010"
+  ],
+  "correctAnswer": 1,
+  "explanation": "25 = 11001 in binary.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_037",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Decimal 45 in binary?",
+  "code": "",
+  "options": [
+   "101111",
+   "101100",
+   "101110",
+   "101101"
+  ],
+  "correctAnswer": 3,
+  "explanation": "45 = 101101 in binary.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_038",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Decimal 60 in binary?",
+  "code": "",
+  "options": [
+   "111101",
+   "111011",
+   "111100",
+   "111110"
+  ],
+  "correctAnswer": 2,
+  "explanation": "60 = 111100 in binary.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_039",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 3,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Decimal 85 in binary?",
+  "code": "",
+  "options": [
+   "1010110",
+   "1010100",
+   "1010111",
+   "1010101"
+  ],
+  "correctAnswer": 3,
+  "explanation": "85 = 1010101 in binary.",
+  "points": 150,
+  "timeLimit": 20
+ },
+ {
+  "id": "GMIX_040",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Hex 0x1F in decimal?",
+  "code": "",
+  "options": [
+   "30",
+   "32",
+   "31",
+   "62"
+  ],
+  "correctAnswer": 2,
+  "explanation": "0x1F = 31.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_041",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Hex 0xFF in decimal?",
+  "code": "",
+  "options": [
+   "254",
+   "510",
+   "255",
+   "256"
+  ],
+  "correctAnswer": 2,
+  "explanation": "0xFF = 255.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_042",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Hex 0x2A in decimal?",
+  "code": "",
+  "options": [
+   "43",
+   "84",
+   "42",
+   "41"
+  ],
+  "correctAnswer": 2,
+  "explanation": "0x2A = 42.",
+  "points": 125,
+  "timeLimit": 15
+ },
+ {
+  "id": "GMIX_043",
+  "category": "Computer Science Fundamentals",
+  "language": "CS",
+  "difficulty": 2,
+  "topic": "mixed",
+  "type": "conceptual",
+  "question": "Hex 0x10 in decimal?",
+  "code": "",
+  "options": [
+   "15",
+   "17",
+   "32",
+   "16"
+  ],
+  "correctAnswer": 3,
+  "explanation": "0x10 = 16.",
+  "points": 125,
+  "timeLimit": 15
+ }
+]

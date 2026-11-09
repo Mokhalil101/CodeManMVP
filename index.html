@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>CODE MAN</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+[hidden]{display:none!important}
+html,body{margin:0;height:100%;background:#070718;color:#e8e8ff;font-family:"Press Start 2P",monospace;overflow:hidden}
+#wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%}
+#game{width:100%;flex:1;min-height:0}
+#dpad{display:none;grid-template-columns:repeat(3,56px);grid-template-rows:repeat(2,56px);gap:6px;padding:8px}
+@media (pointer:coarse){#dpad{display:grid}}
+#dpad button{background:#1a1a6e;color:#ffe94d;border:2px solid #6c5cff;border-radius:10px;font-size:20px}
+#quiz{position:fixed;inset:0;background:rgba(5,5,25,.88);display:flex;align-items:center;justify-content:center;z-index:10}
+.box{width:min(640px,94vw);max-height:92vh;overflow:auto;background:#10104a;border:3px solid #6c5cff;box-shadow:0 0 24px #6c5cff;padding:16px;font-size:11px;line-height:1.6}
+#qmeta{color:#33e0ff;margin-bottom:8px}
+#qbar{height:8px;background:#222;margin-bottom:10px}#qbarin{height:100%;background:#ffe94d;width:100%}
+#qtext{font-size:12px;margin-bottom:10px}
+#qcode{background:#05051a;border:1px solid #6c5cff;padding:10px;white-space:pre-wrap;font-family:monospace;font-size:14px;color:#7dff9b}
+#qopts button,#qnext{display:block;width:100%;text-align:left;margin:6px 0;padding:10px;background:#1a1a6e;color:#fff;border:2px solid #6c5cff;font-family:inherit;font-size:11px;cursor:pointer}
+#qopts button:hover:not(:disabled){background:#2a2a9e}
+#qopts .ok{background:#0b7a3a!important;border-color:#7dff9b}
+#qopts .bad{background:#8a1230!important;border-color:#ff4d6d}
+#qfb{margin:10px 0;color:#ffe94d}
+#qnext{text-align:center;color:#ffe94d}
+</style></head><body>
+<div id="wrap"><div id="game"></div>
+<div id="dpad"><span></span><button data-d="0,-1">▲</button><span></span><button data-d="-1,0">◀</button><button data-d="0,1">▼</button><button data-d="1,0">▶</button></div></div>
+<div id="quiz" hidden><div class="box">
+<div id="qmeta"></div><div id="qbar"><div id="qbarin"></div></div>
+<div id="qtext"></div><pre id="qcode" hidden></pre>
+<div id="qopts"></div><div id="qfb"></div><button id="qnext" hidden>CONTINUE ▶</button>
+</div></div>
+<script src="lib/phaser.min.js"></script>
+<script src="src/config.js"></script>
+<script src="src/systems.js"></script>
+<script src="src/entities.js"></script>
+<script src="src/scenes.js"></script>
+<script src="src/main.js"></script>
+</body></html>
